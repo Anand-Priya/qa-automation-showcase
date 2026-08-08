@@ -1,0 +1,28 @@
+{
+  "name": "qa-automation-showcase",
+  "version": "1.0.0",
+  "description": "UI + API test automation framework built with Playwright and TypeScript — Page Object Model, API testing, and CI reporting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "qa",
+    "api-testing",
+    "page-object-model",
+    "ci-cd"
+  ],
+  "author": "Priya Anand",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^26.2.0",
+    "typescript": "^5.6.0"
+  }
+}
